@@ -1,0 +1,58 @@
+body { 
+    background-color: blanchedalmond;
+}
+  
+.parrafo {
+    color: rgba(143, 46, 46, 0.636) ;
+    background-color: antiquewhite;
+}
+
+#parrafoUnico {
+    color: azure;
+}
+
+#contenedor1 {
+    width: 45vw;
+    height: 80vh;
+    border: 1px solid salmon;
+    margin: 15px;
+    position: relative;
+}
+
+#contenedor2 {
+    width: 45vw;
+    height: 50vh;
+    border: 1px solid chocolate;
+    margin: 15px;
+    display: flex;
+}
+
+.cuadrado{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(214, 214, 190);
+    border: 1px solid saddlebrown;
+    position: absolute;
+}
+
+.cuadrado2 {
+    width: 25%;
+    height: 25%;
+    background-color: rgb(255, 199, 131);
+    border: 1px solid palevioletred;
+}
+
+#cuadro1{
+    top: 0%;
+    left: 0%;
+}                              
+
+#cuadro2 {
+    top: 25%;
+    left: 25%;
+}
+
+#cuadro3 {
+    top: 50%;
+    left: 50%;
+}
