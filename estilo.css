@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
 body { 
     background-color: blanchedalmond;
+}
+
+.titulo {
+    font-family: "story script"; sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6em;
+}
+
+.titulo:hover {
+    font-weight: 600;
+    color:rgb(157, 206, 185);
+    cursor: pointer;
 }
   
 .parrafo {
@@ -107,11 +122,10 @@ position: relative;
     position: absolute;
     top: 53%;
     left: 57%;
-    transform: rotate(90deg);
-}
+    transform: rotate(90deg);}
 }
 
-/* línea hecha con border*/
+
 .lineaHorizontal {
     width: 100px;
     height: 3%;
@@ -121,13 +135,13 @@ position: relative;
     left:50px;
 }
 
-/* línea hecha con border*/
+
 .lineaVertical {
-    width: 0px;
-    height: 100px;
-    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
+    width: 10px;
+    height: 200px;
+    border: 3px solid rgb(141 90 14);
     position: absolute;
-    top: 10px;
+    top: 120px;
     left: 390px;
 }
 
